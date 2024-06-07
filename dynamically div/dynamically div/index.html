@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamically</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="inputContainer">
+            <input type="number" id="numDivs" placeholder="Enter number of divs" required = "true" />
+            <input type="number" id="height" placeholder="Enter height (px)" required = "true" />
+            <input type="number" id="width" placeholder="Enter width (px)" required = "true" />
+            <input type="number" id="margin" placeholder="Enter margin (px)" required = "true" />
+            <input type="number" id="padding" placeholder="Enter padding (px)" required = "true" />
+            <button onclick="createDivs()">Create Divs</button>
+        </div>
+        <div id="divContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
